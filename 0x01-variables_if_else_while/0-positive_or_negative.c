@@ -7,14 +7,12 @@
  *main - assigns a random number
  *
  * Description:check if @n is positive or negative
- * print the outcome
  *
- * return: 0 
+ * return: the outcome if conditions are met
 */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
