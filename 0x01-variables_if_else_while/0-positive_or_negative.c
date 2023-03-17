@@ -8,11 +8,12 @@
  *
  * Description:check if @n is positive or negative
  *
- * return: the outcome if conditions are met
+ * Return: 0 (executed successfully)
 */
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
