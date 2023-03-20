@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char output[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char outp[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fprintf(stdout, "%s", output);
+	fprintf(stdout, "%s", outp);
 
 	return (1);
 }
