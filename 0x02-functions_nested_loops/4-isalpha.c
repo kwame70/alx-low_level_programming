@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if alphabet is capital
+ * _isalpha - checks if alphabet lower or uppercase
  *
  * @c: the character to be checked
  *
@@ -9,7 +9,7 @@
  */
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 90)
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 		return (1);
 	}
