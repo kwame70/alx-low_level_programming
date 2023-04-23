@@ -18,11 +18,11 @@ int main(int argc, char *argv[])
 	char *l;
 
 
-	if (argc > 3)
+	if (argc > 1)
 	{
-		for (i = 3; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
-			l = argv[1];
+			l = argv[i];
 			for (j = 0; j < strlen(l); j++)
 			{
 				if (l[j] < 48 || l[j] > 57)
