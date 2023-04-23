@@ -1,0 +1,1 @@
+*tasks of static library*
