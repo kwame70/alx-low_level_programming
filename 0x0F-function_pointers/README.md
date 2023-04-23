@@ -1,1 +1,0 @@
-*tasks about funtion pointers*
