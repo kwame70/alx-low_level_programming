@@ -7,7 +7,7 @@
  * @argc: number of argument passed
  * @argv: array of strings passed
  *
- * return: nothing.
+ * Return: nothing.
  */
 
 int main(int argc, char **argv)
